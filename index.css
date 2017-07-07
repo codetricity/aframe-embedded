@@ -1,0 +1,20 @@
+a-scene {
+    height: 300px;
+    width: 600px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+div {
+    text-align: center;
+    margin: 20px;
+    letter-spacing: 20px;
+    color: grey;
+}

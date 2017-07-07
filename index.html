@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Bellefair|Fresca|Gloria+Hallelujah" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  </head>
+  <body>
+      <h1>RICOH THETA and A-Frame</h1>
+    <a-scene embedded>
+        <a-sphere 
+            src="360img/sky.JPG" 
+            scale="2 2 2" 
+            position= "0, 1, -4">
+            <a-animation attribute="rotation"
+                dur="9000"
+                from="0 0 0"
+                to="0 360 0"
+                repeat="5">
+                </a-animation>
+        </a-sphere>
+        <a-sky src="360img/museum.JPG"></a-sky>
+    </a-scene>
+    <!--Menu is not implemented mockup only-->
+    <div class="menu">
+         <i class="fa fa-arrow-left fa-3x" ></i>
+
+        <i class="fa fa-cloud-upload fa-3x" ></i>
+        <i class="fa fa-arrow-right fa-3x" ></i>
+    </div>
+  </body>
+</html>
